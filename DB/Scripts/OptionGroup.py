@@ -6,6 +6,8 @@ from sqlite3 import OperationalError
 from typing import Optional, Dict
 
 
+""" Shani Strauss """
+
 def is_valid_engineName(engine_name: str) -> bool:
     """Check if the engineName is valid."""
     valid_engine_names = {
